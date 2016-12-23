@@ -4,7 +4,7 @@ function submit() {
   if (namn == "David" && pass == "davble") {
     window.location = "david.html";
   }
-  else if (namn == "Hanna" && pass == "hanble") {
+  else if (namn == "Hanna" && pass == "hanble" || pass == "HANBLE") {
     window.location = "hanna.html";
   }
   else if (namn == "Bästa föräldrarna" && pass == "12") {

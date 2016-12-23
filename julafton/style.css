@@ -39,6 +39,7 @@ button{
   text-align: center;
   text-decoration: none;
   margin: 5px;
+  margin-top: 10px;
   display: inline-block;
 }
 

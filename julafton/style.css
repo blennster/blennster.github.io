@@ -1,0 +1,52 @@
+body{
+  background-image: url("http://blog.spoongraphics.co.uk/wp-content/uploads/2012/12/15.png");
+}
+
+*{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#box{
+  width: 30%;
+  height: 20%;
+  margin-left: 35%;
+  margin-top: 20%;
+}
+
+#content{
+  width: 80%;
+  margin: 10%;
+  background-color: #3C8D0D;
+  padding: 15px;
+  color: white;
+  height: auto;
+  -webkit-box-shadow: 10px 10px 114px -6px rgba(0,0,0,0.64);
+  -moz-box-shadow: 10px 10px 114px -6px rgba(0,0,0,0.64);
+  box-shadow: 10px 10px 114px -6px rgba(0,0,0,0.64);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+input{
+  width: 100%;
+}
+
+button{
+  background-color: #d42426;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+}
+
+.presentkort{
+  text-align: center;
+  background-color: #d42426;
+  -webkit-box-shadow: 10px 10px 114px -6px rgba(0,0,0,0.64);
+  -moz-box-shadow: 10px 10px 114px -6px rgba(0,0,0,0.64);
+  box-shadow: 10px 10px 114px -6px rgba(0,0,0,0.64);
+  border-radius: 10px;
+}

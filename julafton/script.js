@@ -7,7 +7,7 @@ function submit() {
   else if (namn == "Hanna" && pass == "hanble") {
     window.location = "hanna.html";
   }
-  else if (namn == "Bästa föräldrarna" && pass == "päron") {
+  else if (namn == "Bästa föräldrarna" && pass == "12") {
     window.location = "morochfar.html";
   }
   else {

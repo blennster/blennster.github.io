@@ -67,6 +67,10 @@ li{
 	visibility: hidden;
 }
 
+p{
+	text-align: center;
+}
+
 /*Staring positon*/
 #red-border {
   animation: blinker 2s linear infinite;

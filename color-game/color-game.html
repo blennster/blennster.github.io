@@ -1,0 +1,26 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Match the color!</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+</head>
+<body onload="NewGame()">
+<div id="wrapper">
+	<div id="color-background">
+		<div id="color-matcher"></div>
+	</div>
+	<div id="rgb-wrapper">
+		<ul>
+			<li id="red-border">	<div id="red" class="color-bar"></div>		<div id="correct-red" class="color-bar correct-marker"></div></li> // Byt ordning
+			<li id="green-border">	<div id="green" class="color-bar"></div>	<div id="correct-green" class="color-bar correct-marker"></div></li>
+			<li id="blue-border">	<div id="blue" class="color-bar"></div>		<div id="correct-blue" class="color-bar correct-marker"></div></li>
+		</ul>
+		<button type="button" id="btn" onclick="Check()">Check</button>
+		<button type="button" id="btn" onclick="NewGame()">Start</button>
+	</div>
+	<b>Hej babe, jag älskar dig <3</b>
+</div>
+<p>Color value in hex: <b id="hex-val"></b></p>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

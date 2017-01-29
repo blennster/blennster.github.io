@@ -1,0 +1,77 @@
+#wrapper{
+	width: 80%;
+	margin-left: 10%;
+	background-color: #000000;
+	margin-top: 5%;
+	overflow: hidden;
+}
+
+#color-background{
+	text-align: center;
+	width: 40%;
+	margin: 5%;
+	float: left;
+}
+
+#color-matcher{
+	width: 40%;
+	height: 20%;
+	margin-left: 30%;
+	margin-top: 20%;
+	margin-bottom: 20%;
+	background-color: white;
+	border-radius: 3vw;
+}
+
+#rgb-wrapper{
+	float: left;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+li{
+	float: left;
+	margin: 3vw;
+	width: 20px;
+	height: 30%;
+	border: solid 5px white;
+	position: relative;
+
+}
+
+.color-bar{
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#red{
+	background-color: red;
+}
+
+#green{
+	background-color: green;
+}
+
+#blue{
+	background-color: blue;
+}
+
+.correct-marker{
+	background-color: rgba(0,0,0, 0);
+	border-top: solid 4px white;
+	visibility: hidden;
+}
+
+/*Staring positon*/
+#red-border {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { border-color: rgba(255, 255, 255, 0); }
+}

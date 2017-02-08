@@ -1,0 +1,100 @@
+/* CSS Document */
+body{
+	background-color: #9099A2;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #333333;
+}
+
+.storbox{
+	width: 80%;
+	margin-left: 10%;
+	background-color: #96858F;
+	position: absolute;
+}
+
+header{
+	text-align: center;
+}
+
+nav{
+	background-color: #6D7993;
+	overflow: hidden;
+	height: 80px;
+}
+
+ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+li{
+	float: left;
+	margin-top: 15px;
+	margin-left: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+a{
+	color: #333333;
+	padding: 20px;
+	background-color: #D5D5D5;
+}
+
+a:visited{
+	color: #333333;
+}
+
+#nedladdning{
+	margin-right: 0;
+	float: right;
+}
+
+figure{
+	clear: both
+}
+
+article{
+	text-align: center;
+}
+
+#banner-fig{
+	margin-left: 10%;
+	width: 80%;
+}
+
+#logga-fig{
+	width: 50%;
+	margin-left: 25%;	
+}
+
+#ansikte-fig{
+	width: 40%;
+	margin-left: 30%;
+}
+
+#djur-fig{
+	width: 80%;
+	margin-left: 10%;
+}
+
+img{
+	width: 100%;
+}
+
+hr{
+	margin-top: 20px;
+	color: #6D7993;
+	opacity: 0.2;
+	width: 40%;
+}
+
+footer{
+	text-align: center;
+	padding-bottom: 10px;
+}

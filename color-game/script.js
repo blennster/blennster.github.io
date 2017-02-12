@@ -102,6 +102,7 @@ function NewGame(){
 
 // Keyboard events
 document.addEventListener('keydown', function(event) {
+    event.preventDefault();
     if(event.keyCode == 37) { // Left
         ChangeSelected("left");
     }
@@ -135,4 +136,3 @@ function BlinkingSelected(){
 			break;
 	}
 }
-

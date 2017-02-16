@@ -3,6 +3,7 @@
 <head>
 	<title>Match the color!</title>
 	<link rel="stylesheet" type="text/css" href="stil.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 </head>
 <body onload="NewGame()">
 <p>Welcome to the color matching game! Use the left and right arrow keys to select active color bar. Up and down changes the color intensity. This will change the color of the rounded rectangle. 
@@ -13,14 +14,14 @@
 	</div>
 	<div id="rgb-wrapper">
 		<ul>
-			<li id="red-border">	<div id="red" class="color-bar"></div>		<div id="correct-red" class="color-bar correct-marker"></div></li> // Byt ordning
+			<li id="red-border">	<div id="red" class="color-bar"></div>		<div id="correct-red" class="color-bar correct-marker"></div></li>
 			<li id="green-border">	<div id="green" class="color-bar"></div>	<div id="correct-green" class="color-bar correct-marker"></div></li>
 			<li id="blue-border">	<div id="blue" class="color-bar"></div>		<div id="correct-blue" class="color-bar correct-marker"></div></li>
 		</ul>
 		<button type="button" id="btn" onclick="Check()">Check</button>
 		<button type="button" id="btn" onclick="NewGame()">Restart</button>
 	</div>
-	<b>Hej babe, jag älskar dig <3</b>
+	<b>Hej babe, jag älskar dig</b>
 </div>
 <p>Color value in hex: <b id="hex-val"></b></p>
 </body>

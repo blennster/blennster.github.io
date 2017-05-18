@@ -63,8 +63,8 @@ function buyVest(money, choice){
 	return 	money - 650;
 }
 function buyDefuser(money, choice){
-	$("#" + choice + " #arm").text("Helmet");
-	$("#" + choice + " #arms").attr("href", "weapons/armor.html");
+	$("#" + choice + " #def").text("Yes");
+	$("#" + choice + " #def").attr("href", "items/defuser.html");
 	return 	money - 400;
 }
 

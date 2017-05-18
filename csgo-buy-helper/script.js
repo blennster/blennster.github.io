@@ -84,9 +84,14 @@ function buy(money){
 			moneyCT = buySmoke(moneyCT, CT);
 		}
 	}
+	else if(money >= 5500){
+		fullBuy();
+	}
 	else if(money >= 5100)
 	{
 		fullBuy();
+		$("#CT #def").text("No");
+		moneyCT += 400;
 	}
 	else if(money >= 3000){
 		if(winFirst){
@@ -107,6 +112,7 @@ function buy(money){
 function fullBuy(){
 	moneyT = buyAK(moneyT, T);
 	moneyCT = buyM4(moneyCT, CT);
+	moneyCT = buyDefuser(moneyCT, CT);
 	buyGrenades();
 	buyHelm();
 	buyPistols();
@@ -147,6 +153,7 @@ function clear(){
 	$("#" + CT + " #prim").text("");
 	buyUSP(0, CT);
 	$("#" + CT + " #arm").text("");
+	$("#" + CT + " #def").text("No");
 	$("#" + CT + " #flash").text("0");
 	$("#" + CT + " #he").text("0");
 	$("#" + CT + " #smoke").text("0");

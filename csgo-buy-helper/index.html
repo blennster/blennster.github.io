@@ -4,69 +4,69 @@
 	<meta charset="utf-8">
 	<title>CSGO buy helper</title>
 	<link rel="stylesheet" type="text/css" href="stil.css">
-    <script
-  	src="https://code.jquery.com/jquery-3.1.1.min.js"
-  	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  	crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<nav class="sidebar">
-    	
-    </nav>
+
+	</nav>
 	<div id="contentwrapper">
 		<div class="funding">
-        	<input type="text" id="funding" placeholder="Enter available funding">
-        </div>
-        <div class="funding-alts">
-        	<div id="buttons">
-        		<input type="checkbox" id="first"><span>First Round</span>
-                <input type="checkbox" id="round"><span>Won pistol round?</span>
-                <input type="checkbox" id="awp"><span>Team has AWP?</span>
-                <input type="checkbox" id="troll"><span>Troll?</span>
-        	</div>
-        </div>
-        <div id="alternatives">
-            <ul>
-            	<li class="li-choice">
-                	<div class="choice T" id="choice1T">
-                    	<ul>
-                        	<li>Primary: <a href="weapons/ak47.html" id="prim">AK47</a></li>
-                        	<li>Secondary: <a href="" id="sec"></a></li>
-                        	<li>Armor: <a href="items/armor.html" id="arm"></a></li>
-                        	<li>Defuser: <a href="">N/A</a></li>
-                        	<li>Drops: <a href=""></a></li>
-                        	<li>Grenades: </li>
-                        	<li>&emsp;<span id="flash">0</span>x <a href="">Flash</a></li>
-                        	<li>&emsp;<span id="he">0</span>x <a href="grenades/HEgrenade.html">HE</a></li>
-                        	<li>&emsp;<span id="smoke">0</span>x <a href="">Smoke</a></li>
-                        	<li>&emsp;<span id="molo">0</span>x <a href="">Molotov</a></li>
-                        	<li>Remaining Money: <span id="mon">$0</span></li>
-                    	</ul>
-                	</div>
-                </li>
-                <li class="li-choice">
-                	<div class="choice CT" id="choice1CT">
-                    	<ul>
-                            <li>Primary: <a href="" id="prim">AK47</a></li>
-                            <li>Secondary: <a href="" id="sec"></a></li>
-                            <li>Armor: <a href="" id="arm"></a></li>
-                            <li>Defuser: <a href="" id="def">No</a></li>
-                            <li>Drops: <a href=""></a></li>
-                            <li>Grenades: </li>
-                            <li>&emsp;<span id="flash">0</span>x <a href="">Flash</a></li>
-                            <li>&emsp;<span id="he">0</span>x <a href="">HE</a></li>
-                            <li>&emsp;<span id="smoke">0</span>x <a href="">Smoke</a></li>
-                            <li>&emsp;<span id="incen">0</span>x <a href="">Incendiary</a></li>
-                            <li>Remaining Money: <span id="mon">$0</span></li>
-                    	</ul>
-                	</div>
-                </li>
-            </ul>
-        </div>
-    </div>
-	<script src="weapons.js"></script>
-	<script src="script.js"></script>
-    <script src="nav.js"></script>
+			<input type="text" id="funding" placeholder="Enter available funding" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter available funding'">
+		</div>
+		<div class="funding-alts">
+			<div>
+				<input type="checkbox" id="first"><span>First Round</span>
+				<input type="checkbox" id="round"><span>Won pistol round?</span>
+				<input type="checkbox" id="awp"><span>Team has AWP?</span>
+				<input type="checkbox" id="troll"><span>Troll?</span>
+			</div>
+		</div>
+		<div id="alternatives">
+			<ul>
+				<li>
+					<div class="choice T" id="choiceT">
+						<ul>
+							<li>Primary: <a href="weapons/ak47.html" class="prim">AK47</a></li>
+							<li>Secondary: <a href="" class="sec"></a></li>
+							<li>Armor: <a href="items/armor.html" class="arm"></a></li>
+							<li>Defuser: <a href="">N/A</a></li>
+							<li>Grenades: </li>
+							<li>&emsp;<span class="flash">0</span>x 	<a href="">Flash</a></li>
+							<li>&emsp;<span class="he">0	</span>x 	<a href="grenades/HEgrenade.html">HE</a></li>
+							<li>&emsp;<span class="smoke">0</span>x 	<a href="">Smoke</a></li>
+							<li>&emsp;<span class="molo">0	</span>x 	<a href="">Molotov</a></li>
+							<li>Remaining Money: <span class="mon">$0</span></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="choice CT" id="choiceCT">
+						<ul>
+							<li>Primary: <a href="" class="prim">AK47</a></li>
+							<li>Secondary: <a href="" class="sec"></a></li>
+							<li>Armor: <a href="" class="arm"></a></li>
+							<li>Defuser: <a href="" class="def">No</a></li>
+							<li>Grenades: </li>
+							<li>&emsp;<span class="flash">0</span>x 	<a href="">Flash</a></li>
+							<li>&emsp;<span class="he">0	</span>x	<a href="">HE</a></li>
+							<li>&emsp;<span class="smoke">0</span>x 	<a href="">Smoke</a></li>
+							<li>&emsp;<span class="incen">0</span>x 	<a href="">Incendiary</a></li>
+							<li>Remaining Money: <span class="mon">$0</span></li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="scripts/weapons.js"></script>
+	<script src="scripts/script.js"></script>
+	<script src="scripts/nav.js"></script>
 </body>
+
 </html>

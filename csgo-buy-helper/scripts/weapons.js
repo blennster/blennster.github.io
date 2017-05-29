@@ -101,7 +101,7 @@ function buyIncen(money, choice){
 //Rifle
 function buyAK(money, choice){
 	$("#" + choice + " .prim").text("AK47");
-	$("#" + choice + " .prim").attr("href", "weapons/ak47.html");
+	$("#" + choice + " .prim").attr("href", "rifles/ak47.html");
 	return 	money - 2700;
 }
 
@@ -143,7 +143,7 @@ function buyGlock(money, choice){
 // Rifle
 function buyM4(money, choice){
 	$("#" + choice + " .prim").text("M4");
-	$("#" + choice + " .prim").attr("href", "weapons/m4.html");
+	$("#" + choice + " .prim").attr("href", "rifles/m4.html");
 	return 	money - 3100;
 }
 

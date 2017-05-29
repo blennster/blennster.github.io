@@ -301,7 +301,7 @@ input::placeholder {
 	margin-bottom: 40px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 	.funding {
 		width: 80%;
 		margin-left: 10%;

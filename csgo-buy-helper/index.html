@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSGO buy helper</title>
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="sidebar">
+
+	</nav>
+	<div id="contentwrapper">
+		<div class="funding">
+			<input type="text" id="funding" placeholder="Enter available funding" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter available funding'">
+		</div>
+		<div class="funding-alts">
+			<div>
+				<input type="checkbox" id="first">	<span>First Round</span>
+				<input type="checkbox" id="round">	<span>Won pistol round?</span>
+				<input type="checkbox" id="awp">	<span>Team has AWP?</span>
+				<input type="checkbox" id="troll">	<span>Troll?</span>
+			</div>
+		</div>
+		<article>
+			<div id="intro">
+				<div class="choice">
+					<ul>
+						<li><h1>Welcome to the CSGO buy helper</h1></li>
+						<li><p>
+						The CSGO buy helper is a website that aims to give useful tips on what to purchase in the beginning of rounds in the game
+						Counter-Strike: Global Offensive.
+						</p></li>
+						<li><p>
+						Please enter a number above zero but not above 16000 since that is the maximum amount of money one player can have in his or her bank.
+						</p></li>
+						<li><p>Click on the orange links to get more information about the weapon shown.</p></li>
+					</ul>
+				</div>
+			</div>
+			<div id="alternatives">
+				<ul>
+					<li>
+						<div class="choice T" id="choiceT">
+							<ul>
+								<li>Primary: <a href="weapons/ak47.html" class="prim"></a></li>
+								<li>Secondary: <a href="" class="sec"></a></li>
+								<li>Armor: <a href="misc.html" class="arm"></a></li>
+								<li>Defuser: <a href="misc.html">N/A</a></li>
+								<li>Grenades: </li>
+								<li>&emsp;<span class="flash">0	</span>x 	<a href="grenades.html">Flash</a></li>
+								<li>&emsp;<span class="he">0	</span>x 	<a href="grenades.html">HE</a></li>
+								<li>&emsp;<span class="smoke">0	</span>x 	<a href="grenades.html">Smoke</a></li>
+								<li>&emsp;<span class="molo">0	</span>x 	<a href="grenades.html">Molotov</a></li>
+								<li>Remaining Money: <span class="mon">$0</span></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="choice CT" id="choiceCT">
+							<ul>
+								<li>Primary: <a href="" class="prim"></a></li>
+								<li>Secondary: <a href="" class="sec"></a></li>
+								<li>Armor: <a href="misc.html" class="arm"></a></li>
+								<li>Defuser: <a href="misc.html" class="def">No</a></li>
+								<li>Grenades: </li>
+								<li>&emsp;<span class="flash">0	</span>x 	<a href="grenades.html">Flash</a></li>
+								<li>&emsp;<span class="he">0	</span>x	<a href="grenades.html">HE</a></li>
+								<li>&emsp;<span class="smoke">0	</span>x 	<a href="grenades.html">Smoke</a></li>
+								<li>&emsp;<span class="incen">0	</span>x 	<a href="grenades.html">Incendiary</a></li>
+								<li>Remaining Money: <span class="mon">$0</span></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</div>
+	<script src="scripts/weapons.js"></script>
+	<script src="scripts/script.js"></script>
+	<script src="scripts/nav.js"></script>
+</body>
+
+</html>
